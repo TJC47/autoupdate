@@ -22,7 +22,6 @@ def check(filename, url):
                 file.writelines(text1.split("\n"))
                 file.close()
                 print(f"{filename} is up to date!")
-                print(text1)
             except:
                 print(f"Could not update {filename}! Is the file in use?")
     except:
